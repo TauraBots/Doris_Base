@@ -1,0 +1,255 @@
+<robot
+  name="doris_base">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.00231175095638991 3.41636326469522E-17 0.13190264723807"
+        rpy="0 0 0" />
+      <mass
+        value="18.8046611398755" />
+      <inertia
+        ixx="0.114365566003105"
+        ixy="-7.06808956867684E-19"
+        ixz="-1.86141502112471E-05"
+        iyy="0.114411086945939"
+        iyz="-1.80645340514817E-17"
+        izz="4.55209428335014E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://doris_base/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.894117647058823 0.913725490196078 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://doris_base/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="front_left">
+    <inertial>
+      <origin
+        xyz="6.61939114632304E-11 -0.0250695498772086 1.28861116222012E-10"
+        rpy="0 0 0" />
+      <mass
+        value="0.37985925578285" />
+      <inertia
+        ixx="0.000229876290621417"
+        ixy="-1.74946693852896E-15"
+        ixz="1.77761915397052E-14"
+        iyy="0.000432080363678131"
+        iyz="-3.40404440953145E-15"
+        izz="0.000229876290655882" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://doris_base/meshes/front_left.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://doris_base/meshes/front_left.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="front_left_joint"
+    type="continuous">
+    <origin
+      xyz="0.1705 0.34622 0.0622"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="front_left" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="front_right">
+    <inertial>
+      <origin
+        xyz="-6.61940502411085E-11 0.0250695498772053 1.28862753800973E-10"
+        rpy="0 0 0" />
+      <mass
+        value="0.379859255782933" />
+      <inertia
+        ixx="0.00022987629060951"
+        ixy="-1.74632489234028E-15"
+        ixz="1.72452934975331E-14"
+        iyy="0.000432080363668663"
+        iyz="3.38807671367765E-15"
+        izz="0.000229876290658329" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://doris_base/meshes/front_right.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://doris_base/meshes/front_right.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="front_right_joint"
+    type="continuous">
+    <origin
+      xyz="0.1705 -0.346 0.0622"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="front_right" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="back_left">
+    <inertial>
+      <origin
+        xyz="-9.32842691980795E-11 -0.0250695498770137 1.10841214678858E-10"
+        rpy="0 0 0" />
+      <mass
+        value="0.379859255787887" />
+      <inertia
+        ixx="0.000229876290574557"
+        ixy="2.44987423393622E-15"
+        ixz="-4.17867632077735E-15"
+        iyy="0.000432080363655617"
+        iyz="-2.89717145516545E-15"
+        izz="0.000229876290680559" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://doris_base/meshes/back_left.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://doris_base/meshes/back_left.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="back_left_joint"
+    type="continuous">
+    <origin
+      xyz="-0.1705 0.346 0.0622"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="back_left" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="back_right">
+    <inertial>
+      <origin
+        xyz="-1.44449008310232E-10 0.0250695498770225 -1.10328447766594E-11"
+        rpy="0 0 0" />
+      <mass
+        value="0.379859255787684" />
+      <inertia
+        ixx="0.000229876290572124"
+        ixy="-3.79841330821982E-15"
+        ixz="-5.0475590448876E-15"
+        iyy="0.000432080363651794"
+        iyz="-3.22479708057775E-16"
+        izz="0.000229876290679165" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://doris_base/meshes/back_right.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://doris_base/meshes/back_right.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="back_right_joint"
+    type="continuous">
+    <origin
+      xyz="-0.1705 -0.346 0.0622"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="back_right" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+</robot>
