@@ -42,6 +42,12 @@
   - Dê um Fork no projeto, faça suas contribuições e solicite um Pull Request. Facil assim você estará contribuindo com um grande projeto OpenSource de uma base Omnidirecional Robótica.
   > Lembrando que, quem contribuir, receberá seu devido reconhecimento no projeto.
   
+ ### Como saber o que fazer?
+  - **[Importante]** - Acesse a aba Issues do nosso repositório, e abra o **_"Cronograma de Desenvolvimento do Projeto_**.
+     - Nele tem uma CheckList de tudo que sabemos que precisa ser feito!
+  
+  ----
+  
 ## O que já rolou no projeto:
 
 ##### Development of an Omnidireccional Base to Doris Robot
