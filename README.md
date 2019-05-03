@@ -41,17 +41,20 @@
 
 ### Teremos como pagar por ela ?
  
-  - [ ] Sim!
+   - [x] **Sim!**
 
   * Podemos fabricar grande parte da base aqui na UFSM, mas outras ocasiões, não seria um custo tão absurdo para desenvolver, comparado ao valor de um produto final comprado (Como por exemplo um [PatrolBOT](https://en.wikipedia.org/wiki/PatrolBot), que é uma base robótica comercial. )
 
   > _Um orçamento com base nos conhecimentos que temos, com 3 mil reais dá, provavelmente, para fabricar a nossa propria base !!_
   
-### Da pra usar ela na competição na FURG desse ano?
+### Da pra usar ela na [competição na FURG](http://www.robotica.org.br) desse ano?
 
-  - SIM! Isso é o mais importante.
+  - **SIM!!!!** 
+    - Isso é bem interessante, e digamos que isso é o nosso objetivo!
+      - > Além de todos os outros artigos os quais podemos escrever a partir deste projeto.
   - Temos bastante tempo ainda para essa competição, da pra implementar esse projeto sim!
-  > Porém, preciso de ajuda para que isso aconteça!
+  > Porém, para isso, precisamos de ajuda da comunidade OpenSource!
+  > Lembrando que, todos 
   
 ### Como posso ajudar no projeto?
 
@@ -63,9 +66,31 @@
      - Nele tem uma CheckList de tudo que sabemos que precisa ser feito!
   
   ----
-  
+
+## Projetos/Artigos os quais nos baseamos:
+
+  - [Execução do robô modular omnidirecional para a competição RoboCupJunior Rescue Maze](http://sistemaolimpo.org/midias/uploads/3811bff679773c86b2e699a3dff9030c.pdf)
+
+  - [4WD Mecanum Wheel Robot Kit Series](https://seeeddoc.github.io/4WD_Mecanum_Wheel_Robot_Kit_Series)
+
+  ----
+
 ## O que já rolou no projeto:
 
 ##### Development of an Omnidireccional Base to Doris Robot
 
 - The first 3D model has been developed today (17/03/2019), but was not impremented on Gazebo.
+
+##### Export to Gazebo with [SW2URDF](http://wiki.ros.org/sw_urdf_exporter) 
+
+- The second 3D model has been exported to Gazebo, with many bugs.
+
+----
+
+# Contribuintes do Projeto:
+
+  - @brunoocastro
+
+  - @eduardolima100
+
+----
