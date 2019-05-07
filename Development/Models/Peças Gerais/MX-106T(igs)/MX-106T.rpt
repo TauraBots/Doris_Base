@@ -1,0 +1,68 @@
+*****************************************************************
+      SolidWorks Corporation - Relatório de status do Processador de IGES
+*****************************************************************
+=================================================================
+Informações gerais
+=================================================================
+Enviando ID de produto do sistema : DC08_M01_DUMMY
+Recebendo ID de produto do sistema : DC08_M01_DUMMY
+Nome do arquivo                    : dc08_m01_dummy.igs
+Enviando sistema               : Pro/ENGINEER by Parametric Technology Corporation
+Versão do pré-processador         : 2011220
+Data de criação do arquivo           : 20121012.100511
+Data de criação do modelo           : 20121012.100511
+Unidades                        : MM
+Escala de espaço do modelo            : 1
+Autor                       : yunever
+Organização                 : Unknown
+
+
+=================================================================
+Informações de processamento da entidade
+=================================================================
+
+
+=================================================================
+Análise de precisão do arquivo IGES:
+=================================================================
+  Número mais prevalente de dígitos significativos:              13
+  Número mais alto de dígitos significativos:                     13
+  Número médio de dígitos significativos:                6.01477
+  Distância máxima da origem:                          128.788
+  Distância mínima da origem:                                0
+  Número eficaz de dígitos significativos:                   13
+
+
+=================================================================
+Resumo de entidade
+=================================================================
+-----------------------------------------------------------------
+Nome do tipo                                         Contagem convertida
+---- ----                                         ----- ---------
+100  Arc                                            408       408
+102  Composite curve                                768       768
+110  Line                                          3009      3009
+120  Surface of revolution                          140       140
+124  Transformation matrix                          408       408
+126  Rational B-spline curve                        199       199
+128  Rational B-spline surface                      203       203
+142  Curve on a parametric surface                  384       384
+144  Trimmed parametric surface                     343       343
+314  Color definition                                 9         9
+402  Associativity instance                           3         3
+406  Property                                         3         3
+_________________________________________________________________
+
+
+=================================================================
+Resumo de resultados
+=================================================================
+Tipo de recurso do SolidWorks                Contagem
+-----------------------                -----
+Recursos sólidos                       1
+Recursos de superfície                     0
+Recursos de curva/esboço                0
+--------------------------------------------
+Hora inicial: terça-feira, abril 16, 2019 12:16:46
+Hora de término: terça-feira, abril 16, 2019 12:16:53
+Tempo de processamento: 0 days, 00 hours, 00 mins, 07 secs
